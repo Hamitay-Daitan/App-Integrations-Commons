@@ -24,7 +24,7 @@ language: java
 
 install: true
 script:
-- "mvn clean install -Pcobertura; fi"
+- "mvn clean install -Pcobertura;"
 
 after_sucess:
   - bash <(curl -s https://codecov.io/bash)
