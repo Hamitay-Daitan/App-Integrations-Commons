@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/symphonyoss/App-Integrations-Commons.svg?branch=dev)](https://travis-ci.org/symphonyoss/App-Integrations-Commons)
 [![Dependencies](https://www.versioneye.com/user/projects/58efec768fa4273d16f6d1da/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/58efec768fa4273d16f6d1da)
 [![Validation Status](https://scan.coverity.com/projects/12821/badge.svg?flat=1)](https://scan.coverity.com/projects/symphonyoss-app-integrations-commons)
+[![Code Coverage](https://codecov.io/gh/Hamitay-Daitan/App-Integrations-Commons/badge.svg)](https://codecov.io/gh/Hamitay-Daitan/App-Integrations-Commons?branch=develop)
+
 
 # Integrations Commons Documentation
 
