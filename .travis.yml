@@ -41,7 +41,7 @@ env:
 addons:
   coverity_scan:
     project:
-      name: "symphonyoss/App-Integrations-Commons"
+      name: "Hamitay-Daitan/App-Integrations-Commons"
       description: "Build submitted via Travis CI"
     notification_email: "integrations-team@symphony.com"
     build_command_prepend: "mvn clean"
