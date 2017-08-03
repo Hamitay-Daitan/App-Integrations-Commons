@@ -27,10 +27,6 @@ script:
 - "if [[ \"$TRAVIS_PULL_REQUEST\" = \"false\" && $TRAVIS_BRANCH =~ dev ]]; then mvn clean deploy -Pversioneye -DtransitiveDependencies=true --settings settings.xml; fi"
 - "if [[ \"$TRAVIS_PULL_REQUEST\" != \"false\" ]]; then mvn clean install -Pcobertura; fi"
 
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
-
 jdk:
   - oraclejdk8
 
@@ -41,7 +37,7 @@ env:
 addons:
   coverity_scan:
     project:
-      name: "Hamitay-Daitan/App-Integrations-Commons"
+      name: "symphonyoss/App-Integrations-Commons"
       description: "Build submitted via Travis CI"
     notification_email: "integrations-team@symphony.com"
     build_command_prepend: "mvn clean"
